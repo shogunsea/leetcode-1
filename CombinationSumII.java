@@ -23,7 +23,7 @@ public class Solution {
             
             if(target-candidates[i]>=0){
                 li.add(candidates[i]);
-                getlist(candidates,target-candidates[i],li,reli,i+1);
+                getlist(candidates,target-candidates[i],li,reli,i+1);// This version will fail test.
                 li.remove(li.size()-1);                
             }
         }        
